@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 //This page will be viewed for all unauthorized routes
-//This page will be viwed inside protected route
+//This page will be viewed inside protected route
 
 const Unauthorized = () => {
   return (
