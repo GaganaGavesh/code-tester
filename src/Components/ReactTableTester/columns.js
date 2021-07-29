@@ -6,7 +6,7 @@ export const COLUMNS = [
     Header: 'Id',
     Footer: 'Id',
     accessor: 'id',
-    Filter: ColumnFilter,//render the CloumnFilter for everytime 
+    //Filter: ColumnFilter,//render the CloumnFilter for everytime 
     // when it calls column.render('Filter')
     disableFilters: true,
     sticky: 'left'
@@ -15,21 +15,21 @@ export const COLUMNS = [
     Header: 'First Name',
     Footer: 'First Name',
     accessor: 'first_name',
-    Filter: ColumnFilter,
+    //Filter: ColumnFilter,
     sticky: 'left'
   },
   {
     Header: 'Last Name',
     Footer: 'Last Name',
     accessor: 'last_name',
-    Filter: ColumnFilter,
+    //Filter: ColumnFilter,
     sticky: 'left'
   },
   {
     Header: 'Date of Birth',
     Footer: 'Date of Birth',
     accessor: 'date_of_birth',
-    Filter: ColumnFilter,
+    //Filter: ColumnFilter,
     Cell: ({ value }) => {
       return format(new Date(value), 'dd/MM/yyyy')
     }
@@ -37,25 +37,25 @@ export const COLUMNS = [
   {
     Header: 'Country',
     Footer: 'Country',
-    Filter: ColumnFilter,
+    //Filter: ColumnFilter,
     accessor: 'country'
   },
   {
     Header: 'Phone',
     Footer: 'Phone',
-    Filter: ColumnFilter,
+    //Filter: ColumnFilter,
     accessor: 'phone'
   },
   {
     Header: 'Email',
     Footer: 'Email',
-    Filter: ColumnFilter,
+    //Filter: ColumnFilter,
     accessor: 'email'
   },
   {
     Header: 'Age',
     Footer: 'Age',
-    Filter: ColumnFilter,
+    //Filter: ColumnFilter,
     accessor: 'age'
   },
 ]
