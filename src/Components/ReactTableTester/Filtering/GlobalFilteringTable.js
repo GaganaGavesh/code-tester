@@ -25,7 +25,7 @@ export const GlobalFilteringTable = () => {
     {
       columns,
       data,
-      //defaultColumn// methana dammama column ekee Filter: ColumnFilter
+      defaultColumn// methana dammama column ekee Filter: ColumnFilter
       //kiyala damma wage thama
     },
     useGlobalFilter,
