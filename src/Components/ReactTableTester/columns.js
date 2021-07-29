@@ -59,7 +59,7 @@ export const GROUPED_COLUMNS = [
   {
     Header: 'Name',
     Footer: 'Name',
-    columns: [
+    columns: [//methana danne ape headerGroup ekata adala wena column tika
       {
         Header: 'First Name',
         Footer: 'First Name',
