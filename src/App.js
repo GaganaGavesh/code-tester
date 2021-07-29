@@ -4,14 +4,16 @@ import React from "react";
 //import Example from './Components/ReactStrapTesterComponents/TabContent';
 // import Example from './Components/ReactStrapTester/ProgressBar';
 // import FormsExample from './Components/ReactFormTester/Forms';
-import TableTester from './Components/ReactTableTester/ReactTable';
+//import TableTester from './Components/ReactTableTester/ReactTable';
+import {BasicTable} from './Components/ReactTableTester/BasicReactTable';
 
 function App() {
   return (
     // <MainAppForProtectedRoute/>
     // <Example/>
     // <FormsExample/>
-    <TableTester/>
+    // <TableTester/>
+    <BasicTable/>
   );
 }
 
