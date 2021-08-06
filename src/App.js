@@ -5,7 +5,13 @@ import React from "react";
 // import Example from './Components/ReactStrapTester/ProgressBar';
 // import FormsExample from './Components/ReactFormTester/Forms';
 //import TableTester from './Components/ReactTableTester/ReactTable';
-import {BasicTable} from './Components/ReactTableTester/BasicReactTable';
+import { BasicTable } from "./Components/ReactTableTester/BasicReactTable";
+import FRIParent from "./Components/FowardRefTester/FRIParent";
+import { GlobalFilteringTable } from "./Components/ReactTableTester/Filtering/GlobalFilteringTable";
+import { ManageColumns } from './Components/ReactTableTester/ManageColumns/ManageCOlumnTable';
+import PaginationTable from './Components/ReactTableTester/Pagination/PaginatedTable';
+import { RowSelection } from './Components/ReactTableTester/RowSelection/RowSelectionTable';
+import { SortTable } from "./Components/ReactTableTester/SortByTable";
 
 function App() {
   return (
@@ -13,7 +19,13 @@ function App() {
     // <Example/>
     // <FormsExample/>
     // <TableTester/>
-    <BasicTable/>
+    //<BasicTable/>
+    //<SortTable/>
+    //<GlobalFilteringTable />
+    //<PaginationTable/>
+    //<RowSelection/>
+    //<ManageColumns/>
+    <FRIParent/>
   );
 }
 
