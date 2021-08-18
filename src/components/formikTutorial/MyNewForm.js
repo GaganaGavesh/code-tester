@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Row, Button, Form, FormGroup, Label, Input } from "reactstrap";
-import { Formik } from "formik";
+import { Formik, Field } from "formik";
 import * as Yup from "yup";
 
 import LabeledInput from "./components/LabeledInput";
+import PasswordShowHide from "./components/PasswordShowHide";
 
 const MyNewForm = (props) => {
   return (
@@ -77,6 +78,16 @@ const MyNewForm = (props) => {
               </FormGroup>
             </Col>
           </Row>
+          <FormGroup>
+          <div>
+            <label>Password</label>
+            <Field
+              name="password"
+              className="form-control rounded-0"
+              component={PasswordShowHide}
+            />
+          </div>
+          </FormGroup>
           <FormGroup>
             <LabeledInput
               type="text"

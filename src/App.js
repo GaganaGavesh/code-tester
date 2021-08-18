@@ -27,8 +27,8 @@ function App() {
       {/* <Basic/> */}
       {/* <StyledComponent/> */}
       {/* <SignupForm/> */}
-      {/* <MyNewForm/> */}
-      <HookForm01/>
+      <MyNewForm/>
+      {/* <HookForm01/> */}
     </div>
   );
 }

@@ -13,6 +13,7 @@ const LabeledInput = ({labelText, ...props}) => {
         {...field}
         {...props}
       />
+      <i class="bi bi-eye"></i>
       {meta.error && meta.touched && <div>{meta.error}</div>}
     </>
   );
