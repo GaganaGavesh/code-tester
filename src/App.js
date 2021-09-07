@@ -4,6 +4,7 @@
 // import Basic from './components/BasicFormik';
 import MyNewForm from './components/formikTutorial/MyNewForm';
 import HookForm01 from './components/hookForms/HookForm01';
+import NormalizerTester from './components/Normalizer/NormalizerTester';
 // import StyledComponent from './components/StyledComponents';
 // import SignupForm from './components/formikTutorial/TutorialForm';
 
@@ -27,8 +28,9 @@ function App() {
       {/* <Basic/> */}
       {/* <StyledComponent/> */}
       {/* <SignupForm/> */}
-      <MyNewForm/>
+      {/* <MyNewForm/> */}
       {/* <HookForm01/> */}
+      <NormalizerTester/>
     </div>
   );
 }
